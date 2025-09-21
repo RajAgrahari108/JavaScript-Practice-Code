@@ -25,14 +25,27 @@
 
 // ! collback function 
 
-function sum(p1 , p2){
-    console.log(p1+p2); 
+// function sum(p1 , p2){
+//     console.log(p1+p2); 
+// }
+// function sub(p1 , p2){
+//     console.log(p1-p2); 
+// }
+// function mult(p1 , p2){
+//     console.log(p1*p2); 
+// }
+
+
+
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback();
 }
-function sub(p1 , p2){
-    console.log(p1-p2); 
+
+function sayBye() {
+  console.log("Goodbye!");
 }
-function mult(p1 , p2){
-    console.log(p1*p2); 
-}
+
+greet("Raj", sayBye);
 
  
