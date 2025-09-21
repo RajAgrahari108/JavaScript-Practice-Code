@@ -68,8 +68,22 @@
 
 // ! iifr
 
-let res = (function sum(a , b){
-   console.log(a+b);
-   return a+b
-})(10 , 12)
+// let res = (function sum(a , b){
+//    console.log(a+b);
+//    return a+b
+// })(10 , 12)
 // console.log(res);
+
+
+
+// !9. NESTED FUNCTION
+// if we declare one function inside another function 
+// debugger;
+function outer(){
+    console.log('Outer function');
+    return function inner(){
+        console.log('Inner function');
+    }
+}
+let r = outer()
+r()
