@@ -66,3 +66,10 @@
 // a()
 
 
+// ! iifr
+
+let res = (function sum(a , b){
+   console.log(a+b);
+   return a+b
+})(10 , 12)
+// console.log(res);
