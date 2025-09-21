@@ -37,15 +37,32 @@
 
 
 
-function greet(name, callback) {
-  console.log("Hello " + name);
-  callback();
-}
+// function greet(name, callback) {
+//   console.log("Hello " + name);
+//   callback();
+// }
 
-function sayBye() {
-  console.log("Goodbye!");
-}
+// function sayBye() {
+//   console.log("Goodbye!");
+// }
 
-greet("Raj", sayBye);
+// greet("Raj", sayBye);
 
+
+
+//  function calc(a , b ,c){
+//     a(b,c)
+// }
+// calc(sum , 10 , 5)
+// calc(sub , 10 , 5)
+// calc(mult , 10 , 5)
  
+
+// ! 2. anonymous function
+
+// let a = function(){
+//     console.log('I am anonymous function');
+// }
+// a()
+
+
