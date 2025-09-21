@@ -1,4 +1,4 @@
-// ! Array 
+// ! Array  
 // ! Ways to create an array 
 //  1 . by using array literal ([])
 // let arr = [];
