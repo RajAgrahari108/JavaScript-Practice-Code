@@ -1,4 +1,4 @@
-// ! Array  
+// ! Array   
 // ! Ways to create an array 
 //  1 . by using array literal ([])
 // let arr = [];
@@ -66,19 +66,7 @@
 // arr.unshift(2,3,4,5)
 // console.log(arr);
 
-// !10 splice(s.i , deleteCount , newEl1 , newEl2 ..... newEln)
-// splice is used to add or remove the elements at a specific index of the array
-// it will accept the first argument as the s.i
-// 2nd arg is deleteCOunt -> the number of element we want to delete
-// the next argument will be the elements we want to add
-// it will modify the original array
-// let arr = [40 , 50 , 90 , 10 , 20 , 60];
-// arr.splice(1,3); 
-// console.log(arr);//(3) [40, 20, 60]
-// arr.splice(1 ,0 , 4,5,6);
-// console.log(arr); //(6) [40, 4, 5, 6, 20, 60]
-// arr.splice(1 , 2 , 10);
-// console.log(arr);
+
 
 
 // ! immutable 
@@ -108,6 +96,21 @@
 // let arr = [10 , 20 , 30 , 40 , 10 , 20]
 // let sub = arr.slice(1, 5)
 // console.log(sub); //(4) [20, 30, 40, 10]
+
+// !10 splice(s.i , deleteCount , newEl1 , newEl2 ..... newEln)
+// splice is used to add or remove the elements at a specific index of the array
+// it will accept the first argument as the s.i
+// 2nd arg is deleteCOunt -> the number of element we want to delete
+// the next argument will be the elements we want to add
+// it will modify the original array
+// let arr = [40 , 50 , 90 , 10 , 20 , 60];
+// arr.splice(1,3); 
+// console.log(arr);//(3) [40, 20, 60]
+// arr.splice(1 ,0 , 4,5,6);
+// console.log(arr); //(6) [40, 4, 5, 6, 20, 60]
+// arr.splice(1 , 2 , 10);
+// console.log(arr);
+  
 
 
 // !11. reverse()
