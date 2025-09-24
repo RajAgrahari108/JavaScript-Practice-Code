@@ -15,7 +15,7 @@ let myArr = [1, 2, 3, 4, 5, 6, 7];
 // !5. at(index)
 // at will return the element present at a specific index , we can pass negative index also
 
-let arr = [10 , 20 , 30 , 40 , 10 , 20]
+// let arr = [10 , 20 , 30 , 40 , 10 , 20]
 // console.log(arr.at(0));
 // console.log(arr.at(-1));
 // console.log(arr.at(-2));
@@ -39,5 +39,23 @@ let arr = [10 , 20 , 30 , 40 , 10 , 20]
 // it is used to extract an specific part of the array and it will return a new array 
 // e.i will be excluded
 // let arr = [10 , 20 , 30 , 40 , 10 , 20]
-let sub = arr.slice(1, 5)
-console.log(sub); //(4) [20, 30, 40, 10]
+// let sub = arr.slice(1, 5)
+// console.log(sub); //(4) [20, 30, 40, 10]
+
+
+
+// ! map(callbackFn..)
+// map is an advance method of the array which accepts a callback function 
+// it will return an array with updated elements
+// it will update all the elements of the array based on the expression we have return from the callback function
+let arr = [4 , 6 , 9 , 12]
+// let res  = arr.map((el , i )=>{
+//      return el * el *el
+// })
+// console.log(res);
+
+
+let newNum = arr.map((el, i) => {
+    return el + 10;
+})
+console.log(newNum);
