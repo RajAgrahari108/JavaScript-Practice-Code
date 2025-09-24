@@ -1,2 +1,2 @@
-console.log(Math.floor(20.9)); // 20
-console.log(Math.floor(30.5)); // 30
+let date = new Date();
+console.log(date);

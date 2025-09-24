@@ -21,6 +21,22 @@ console.log(Math.abs(40)); // 40
 
 // ! Math.ceil()
 // it will return the nearest highest integer value
-console.log(Math.ceil(20.9)); // 21
-console.log(Math.ceil(30.1)); // 31
-console.log(Math.ceil(30.4)); // 31
+// console.log(Math.ceil(20.9)); // 21
+// console.log(Math.ceil(30.1)); // 31
+// console.log(Math.ceil(30.4)); // 31
+
+
+
+
+
+// +============================================================
+
+
+
+// date 
+
+
+// ! instantiation of date
+let date = new Date();
+console.log(date);
+console.log(date.toString())
