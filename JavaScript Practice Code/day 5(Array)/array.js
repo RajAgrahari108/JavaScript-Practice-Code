@@ -48,14 +48,29 @@ let myArr = [1, 2, 3, 4, 5, 6, 7];
 // map is an advance method of the array which accepts a callback function 
 // it will return an array with updated elements
 // it will update all the elements of the array based on the expression we have return from the callback function
-let arr = [4 , 6 , 9 , 12]
+// let arr = [4 , 6 , 9 , 12]
 // let res  = arr.map((el , i )=>{
 //      return el * el *el
 // })
 // console.log(res);
 
 
-let newNum = arr.map((el, i) => {
-    return el + 10;
-})
-console.log(newNum);
+// let newNum = arr.map((el, i) => {
+//     return el + 10;
+// })
+// console.log(newNum);
+
+
+// ! filter(callbackFn..)
+// filter is an advance method of the array which accepts a callback function 
+// filter is used to filter the array elements based on the condition
+// it will return an array with all the element which satisfies the condition
+// let arr = [4 , 6 , 9 , 12]
+// let res  = arr.filter((el , i )=>{
+//      return el%2==0;
+// })
+// console.log(res); 
+
+
+// let arr2 = arr.filter((el, i) => el%2 ==0 )
+// console.log(arr2);
