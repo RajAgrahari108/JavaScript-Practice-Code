@@ -74,3 +74,8 @@ let myArr = [1, 2, 3, 4, 5, 6, 7];
 
 // let arr2 = arr.filter((el, i) => el%2 ==0 )
 // console.log(arr2);
+
+
+let shoping = shopingCart.reduce((el, curval) => {
+     return el + curval.price;
+},0)
