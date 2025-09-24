@@ -1,1 +1,1 @@
-let arr = [10 , 20 , 30 , 40 , 10 , 20]
+console.log(arr.lastIndexOf(10)); // 4
