@@ -1,3 +1,2 @@
-obj.place = 'Kerala',
-// obj.hobby = 'Scrolling'
-// obj.status = 'online'
+console.log(regularUSer.email);
+// console.log(regularUSer.fullName);

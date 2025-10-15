@@ -8,9 +8,9 @@ let p1 = {
 }
 // console.log(p1.pname);
 // console.log(p1['pname']);
-p1.place = 'Kerala'
-p1.hobby = 'Scrolling'
-console.log(p1);
+// p1.place = 'Kerala'
+// p1.hobby = 'Scrolling'
+// console.log(p1);
 
 
 
@@ -26,3 +26,20 @@ let obj
 // ! delete 
 // delete obj.status
 // console.log(obj);
+
+
+
+const regularUSer= {
+    email : "rj@ggmail.com",
+    fullName: {
+        userFullName:{
+            firatName : "Raj",
+            lastName : "Agrahari"
+        }
+    }
+}
+// console.log(regularUSer.email);
+// console.log(regularUSer.fullName);
+console.log(regularUSer.fullName.userFullName.firatName);
+// console.log(regularUSer.firatName);
+// console.log(regularUSer.lastName);
