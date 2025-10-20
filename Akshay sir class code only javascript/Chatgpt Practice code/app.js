@@ -67,8 +67,35 @@
 
 
 // let id = isLoggedIn;
-isLoggedIn && console.log('Login Successful');
+// isLoggedIn && console.log('Login Successful');
 // id !== isLoggedIn && console.log('Not Login ');
 
 
+// let id = isLoggedIn;
 
+
+
+// isLoggedIn && console.log("Welcome");
+// !isLoggedIn && console.log("Please Login");
+
+let password= "";
+
+
+// !password && console.log("Enter password") || console.log("Access granted");
+
+
+// let age = 23;
+// age<18 && console.log('You can vote')||
+// age>18 && console.log('You cannot vote');
+
+// let num = -1;
+// num>0 && console.log("positive") ||
+// num<0 && console.log("negative");
+
+
+// let num = 2;
+// num>18 && console.log("Drink Juice") ||
+// num<18 && console.log("Drink Milk");
+
+let num = 6;
+console.log(num%2===0 ? "Even" : "Odd");
