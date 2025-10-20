@@ -78,7 +78,7 @@
 // isLoggedIn && console.log("Welcome");
 // !isLoggedIn && console.log("Please Login");
 
-let password= "";
+// let password= "";
 
 
 // !password && console.log("Enter password") || console.log("Access granted");
@@ -97,5 +97,22 @@ let password= "";
 // num>18 && console.log("Drink Juice") ||
 // num<18 && console.log("Drink Milk");
 
-let num = 6;
-console.log(num%2===0 ? "Even" : "Odd");
+// let num = 6;
+// console.log(num%2===0 ? "Even" : "Odd");
+
+
+// let password = "";
+// password && console.log("Enter password");
+// !password && console.log("Access Grat");
+// console.log(password === "" ? 'Enter password' : 'Access granted')
+
+// let age = 17;
+// console.log(age>18 ? 'you can vate' : 'youn cont vote')
+
+let price = '50';
+console.log('50' + 20);
+
+
+
+console.log(5-2==3 && 10-5==10);
+
