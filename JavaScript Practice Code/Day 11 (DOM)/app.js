@@ -59,3 +59,78 @@ const squ= scu.map((el)=>{
 //  }) 
 //  console.log(maxNum);
  
+
+const array2 = ["hi", "hello", "good"];
+const count = array2.map((el,i)=>{
+    return el.length;
+})
+// console.log(count);
+
+
+
+// let numb=[12, 56, 78, 34, 89, 23];
+// const graterNum = numb.filter((el)=>{
+//     return el > 50;
+// })
+// // console.log(graterNum);
+
+
+
+// let avg = [10, 20, 30, 40, 50];
+// let avgNum = avg.reduce((el,i)=>{
+//     return (el+i)/el;
+// },0)
+// console.log(avgNum);
+
+
+const users = [
+  { name: "Raj", age: 22 },
+  { name: "Amit", age: 17 },
+  { name: "Neha", age: 25 },
+  { name: "Rohit", age: 19 }
+];
+
+const usrers = users.filter((el)=>{
+    return el.age>18;
+})
+// console.log(usrers);
+
+const names = users.map((el)=>{
+    return el.name.toLocaleUpperCase();
+})
+// console.log(names);
+
+
+const products = [
+  { name: "Laptop", price: 50000 },
+  { name: "Phone", price: 20000 },
+  { name: "Tablet", price: 15000 }
+];
+
+
+const totalPri = products.reduce((el,i)=>{
+    return el+i.price;
+},0)
+// console.log(totalPri);
+
+// let array3 = [1, 2, 3, 4, 5, 6, 7, 8];
+// const oddOrEven = array3.filter((el)=>{
+//     if(el%2 !== 0){
+//         return true;
+//     }else{
+//         return false ;
+//     }
+// })
+// console.log(oddOrEven);
+
+// const sumOdd = oddOrEven((sum, el)=>{
+    
+// })
+
+
+
+const sumOdd = [1,2,3,4,5,6,7,8]
+  .filter(num => num % 2 !== 0)
+  .reduce((a, b) => a + b, 0);
+
+console.log(sumOdd);
