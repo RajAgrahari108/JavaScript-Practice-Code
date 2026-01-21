@@ -103,10 +103,41 @@
 
 
 
-document.getElementById("username").value
-if (u === "abc" && e === "abc@gmail.com" && p === "abc@123") {
-alert("Login Success");
-} else {
-alert("Login Failed");
+// document.getElementById("username").value
+// if (u === "abc" && e === "abc@gmail.com" && p === "abc@123") {
+// alert("Login Success");
+// } else {
+// alert("Login Failed");
+// }
+
+// let age = 23;
+// let firstPromise= new Promise((resolve, reject)=>{
+//     if(age>=18){
+//         resolve("Eligible for vote")
+//     }else{
+//        reject("Not Eligible for vote") 
+//     }
+// });
+
+// firstPromise.then((res)=>{
+//     console.log(res);
+    
+// }).catch((err)=>{
+//     console.log("Errer in ths code");
+// })
+
+
+async function getData() {
+    try{
+        let response = await fetch(
+            'https://jsonplaceholder.typicode.com/comments?postId=1'
+        )
+        let data = await response.json()
+        console.log(data);
+    }catch{
+        console.log("errer");
+    }
 }
+getData()
+
 
