@@ -133,4 +133,17 @@ const sumOdd = [1,2,3,4,5,6,7,8]
   .filter(num => num % 2 !== 0)
   .reduce((a, b) => a + b, 0);
 
-console.log(sumOdd);
+// console.log(sumOdd);
+
+let arr = [1,2,3,4];
+
+// arr.forEach(el => {
+//     console.log(el);
+    
+// });
+
+for(let i=1; i<=5; i++){
+    let ul = document.createElement('ul');
+    ul.textContent= "this is ul" + i;
+    document.body.appendChild(ul);
+}
