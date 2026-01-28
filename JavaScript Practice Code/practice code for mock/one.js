@@ -86,12 +86,25 @@
 
 
 
-for(let i=1; i<=5; i++){
-    let ul = document.createElement('ul');
-    ul.textContent= "this is ul" + i;
-    document.body.appendChild(ul);
-}
+// for(let i=1; i<=5; i++){
+//     let ul = document.createElement('ul');
+//     ul.textContent= "this is ul" + i;
+//     document.body.appendChild(ul);
+// }
 
 // let ul = document.createElement('ul');
 //     ul.textContent= "this is para ";
 //     document.body.appendChild(ul);
+
+
+
+
+let arr = ['one','two','three','four'];
+let ul = document.createElement("ul")
+arr.forEach((el)=>{
+    let li = document.createElement("li");
+    li.textContent = el;
+    ul.appendChild(li);
+});
+document.body.appendChild(ul);
+
